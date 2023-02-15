@@ -1,0 +1,30 @@
+{
+  "name": "static-site-generator",
+  "version": "1.0.0",
+  "description": "Solution for The Pesapal Developer Challenge question 1 on static site generator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuttWaweru/static-site-generator.git"
+  },
+  "keywords": [
+    "SSG",
+    "static",
+    "site"
+  ],
+  "author": "tutt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TuttWaweru/static-site-generator/issues"
+  },
+  "homepage": "https://github.com/TuttWaweru/static-site-generator#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
+  }
+}
